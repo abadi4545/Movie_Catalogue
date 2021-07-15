@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MovieCatalogue" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="colorPrimary">#ff7314</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="NoAnimTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="colorPrimary">#ff7314</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+</resources>
